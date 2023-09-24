@@ -1,0 +1,167 @@
+
+body{
+    background: #fffbfb;
+    width: 700px;
+    margin: auto;
+}
+
+h1{
+    color: rgb(41, 41, 41);
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    color: rgb(59, 59, 59);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 [ROW]{
+    color: #a9d1fd;
+}
+
+
+#principal{
+    background: #f1f1ecd5;
+}
+
+.contenedor{
+    width: 690px;
+    border: 1px solid #b9b68a;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor>div>img{
+    background: #777;
+    color: #fff;
+    width: 120px;
+    height: 100px;
+    font-size: 2em;
+    margin: 4px;
+}
+
+.contenedor>div>p{
+    margin: 41px;/*38*/
+}
+
+/*-----------------------1---------------------*/
+
+#caja1{
+    flex-direction: row;
+}
+
+#caja1>div{
+    background: #ffecda;
+}
+
+/*-----------------------2-----------------------*/
+#caja2{
+    flex-direction: row-reverse;
+}
+
+#caja2>div{
+    background: #ffecda;
+}
+/*-----------------------3-----------------------*/
+
+#caja3{
+    flex-direction: column;
+    width: 130px;
+}
+
+#caja3>div{
+    background: rgb(255, 192, 190);
+}
+
+/*-----------------------4-----------------------*/
+
+#caja4{
+    flex-direction: column-reverse;
+    width: 130px;
+}
+
+#caja4>div{
+    background: rgb(255, 192, 190);
+}
+
+/*-----------------------5-----------------------*/
+
+#caja5{
+    flex-wrap: wrap;
+    width: 130px;
+}
+
+#caja5>div{
+    background: #fd69ae;
+}
+
+/*-----------------------6-----------------------*/
+
+#caja6{
+    flex-wrap:nowrap;
+    width: 130px;
+}
+
+#caja6>div{
+    background: #fd69ae;
+}
+/*-----------------------7-----------------------*/
+
+#caja7{
+    flex-wrap:wrap-reverse;
+    width: 130px;
+}
+
+#caja7>div{
+    background: #fd69ae;
+}
+
+/*-----------------------8-----------------------*/
+
+#caja8{
+    justify-content: flex-start;
+}
+
+#caja8>div{
+    background: #faffb3;
+}
+
+/*-----------------------9-----------------------*/
+
+#caja9{
+    justify-content: flex-end;
+}
+
+#caja9>div{
+    background: #faffb3;
+}
+/*-----------------------10-----------------------*/
+
+#caja10{
+    justify-content: center;
+}
+
+#caja10>div{
+    background: #a9d1fd;
+}
+
+/*-----------------------11-----------------------*/
+
+#caja11{
+    justify-content: space-between;
+}
+
+#caja11>div{
+    background: #c7f0c3;
+}
+
+/*-----------------------11-----------------------*/
+
+#caja12{
+    justify-content: space-around;
+}
+
+#caja12>div{
+    background: #c7f0c3;
+}
